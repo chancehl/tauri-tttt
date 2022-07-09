@@ -1,0 +1,26 @@
+:root {
+    --cell-dimensions: 5rem;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, var(--cell-dimensions));
+    grid-template-rows: repeat(3, var(--cell-dimensions));
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+}

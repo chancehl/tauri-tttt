@@ -1,0 +1,12 @@
+#controls {
+    margin: 1rem;
+}
+
+#new-game {
+    padding: 1rem 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}

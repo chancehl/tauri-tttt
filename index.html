@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Links -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <!-- Document -->
+    <title>Tic Tac Taco</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Scoreboard -->
+      <div id="scoreboard">
+        <div data-player="taco" id="player--taco">
+          <img src="assets/taco.jpg" class="player--photo" />
+          <div data-player-score="taco" id="score--taco">0</div>
+        </div>
+        <div data-player="burrito" id="player--burrito">
+          <img src="assets/burrito.jpg" class="player--photo inactive" />
+          <div data-player-score="burrito" id="score--burrito">0</div>
+        </div>
+      </div>
+
+      <!-- Game board -->
+      <div id="game-board">
+        <div data-x="0" data-y="0" class="cell"></div>
+        <div data-x="1" data-y="0" class="cell"></div>
+        <div data-x="2" data-y="0" class="cell"></div>
+        <div data-x="0" data-y="1" class="cell"></div>
+        <div data-x="1" data-y="1" class="cell"></div>
+        <div data-x="2" data-y="1" class="cell"></div>
+        <div data-x="0" data-y="2" class="cell"></div>
+        <div data-x="1" data-y="2" class="cell"></div>
+        <div data-x="2" data-y="2" class="cell"></div>
+      </div>
+
+      <!-- Controls -->
+      <!-- <div id="controls">
+        <button id="new-game">Reset</button>
+      </div> -->
+    </div>
+
+    <!-- Event listeners -->
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

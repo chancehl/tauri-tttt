@@ -1,0 +1,19 @@
+#scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player--photo {
+    height: 100px;
+    width: 100px;
+}
+
+.inactive {
+    opacity: 0.25;
+}
+
+#score--taco, #score--burrito {
+    font-size: 3rem;
+    font-weight: 900;
+}
